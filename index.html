@@ -1,0 +1,1301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Saurav Bhaskar Saha, PhD, FRSB — Bioinformatics &amp; Computational Drug Discovery</title>
+
+<meta name="description" content="Saurav Bhaskar Saha, PhD, FRSB — Senior Scientist at Sygnature Discovery, leading bioinformatics efforts across drug discovery programmes. Computational biology, target identification, antimicrobial resistance and AI-enabled drug discovery.">
+<meta name="author" content="Saurav Bhaskar Saha">
+<link rel="canonical" href="https://sauravbsaha.github.io/">
+<meta name="theme-color" content="#173f73" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0b1626" media="(prefers-color-scheme: dark)">
+
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Saurav Bhaskar Saha, PhD, FRSB">
+<meta property="og:description" content="Senior Scientist at Sygnature Discovery, leading bioinformatics efforts. Computational biology, target identification and AI-enabled drug discovery.">
+<meta property="og:url" content="https://sauravbsaha.github.io/">
+<meta property="og:image" content="https://sauravbsaha.github.io/images/profile.jpg">
+<meta property="og:site_name" content="Saurav Bhaskar Saha">
+<meta property="og:locale" content="en_GB">
+<meta property="og:image:alt" content="Portrait of Saurav Bhaskar Saha, PhD, FRSB">
+<meta property="profile:first_name" content="Saurav Bhaskar">
+<meta property="profile:last_name" content="Saha">
+<meta property="profile:username" content="sauravbsaha">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@sauravbsaha">
+<meta name="twitter:creator" content="@sauravbsaha">
+
+<!-- Identity claims: rel="me" ties this page to the same person's other profiles.
+     Each of these targets links back here (directly, or via the ORCID record),
+     which is what makes the cluster verifiable rather than merely asserted. -->
+<link rel="me" href="https://www.linkedin.com/in/sauravbsaha/">
+<link rel="me" href="https://orcid.org/0000-0002-8609-7004">
+<link rel="me" href="https://scholar.google.com/citations?user=Jvi-QpIAAAAJ">
+<link rel="me" href="https://www.researchgate.net/profile/Saurav-Saha-2">
+<link rel="me" href="https://github.com/sauravbsaha">
+<link rel="me" href="https://x.com/sauravbsaha">
+<link rel="me" href="https://www.sygnaturediscovery.com/saurav-saha-bio-modal/">
+<link rel="author" href="https://orcid.org/0000-0002-8609-7004">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23173f73'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='30' font-weight='700' fill='%23ffffff' text-anchor='middle'%3ESS%3C/text%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="images/profile.jpg">
+
+<style>
+/* ---------- Design tokens ---------- */
+:root{
+  --navy:#173f73;
+  --navy-600:#1d4f8f;
+  --navy-400:#2d6eb8;
+  --accent:#0f9d8f;
+
+  --bg:#f5f7fa;
+  --bg-alt:#eef2f7;
+  --surface:#ffffff;
+  --surface-2:#f2f5f9;
+  --text:#1b2733;
+  --text-muted:#5a6b7d;
+  --heading:#123056;
+  --border:#dde5ee;
+  --shadow:0 1px 2px rgba(16,32,53,.06), 0 8px 24px rgba(16,32,53,.07);
+  --shadow-lg:0 2px 4px rgba(16,32,53,.06), 0 18px 44px rgba(16,32,53,.12);
+  --ring:0 0 0 3px rgba(45,110,184,.35);
+
+  --radius:14px;
+  --radius-sm:9px;
+  --maxw:1120px;
+
+  --font-sans:"Inter","Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  --font-serif:Georgia,"Iowan Old Style","Times New Roman",serif;
+}
+
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --navy:#5b9bd5;
+    --navy-600:#7ab0e0;
+    --navy-400:#9cc6ea;
+    --accent:#3fc9b8;
+
+    --bg:#0b1220;
+    --bg-alt:#0e1728;
+    --surface:#131e30;
+    --surface-2:#1a273b;
+    --text:#dbe4ef;
+    --text-muted:#9aabbf;
+    --heading:#cfe0f2;
+    --border:#26344a;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.35);
+    --shadow-lg:0 2px 4px rgba(0,0,0,.4), 0 18px 44px rgba(0,0,0,.5);
+    --ring:0 0 0 3px rgba(91,155,213,.4);
+  }
+}
+
+:root[data-theme="dark"]{
+  --navy:#5b9bd5;
+  --navy-600:#7ab0e0;
+  --navy-400:#9cc6ea;
+  --accent:#3fc9b8;
+
+  --bg:#0b1220;
+  --bg-alt:#0e1728;
+  --surface:#131e30;
+  --surface-2:#1a273b;
+  --text:#dbe4ef;
+  --text-muted:#9aabbf;
+  --heading:#cfe0f2;
+  --border:#26344a;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.35);
+  --shadow-lg:0 2px 4px rgba(0,0,0,.4), 0 18px 44px rgba(0,0,0,.5);
+  --ring:0 0 0 3px rgba(91,155,213,.4);
+}
+
+/* ---------- Base ---------- */
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:86px;-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto}
+  *{animation-duration:.01ms !important;transition-duration:.01ms !important}
+}
+body{
+  margin:0;
+  font-family:var(--font-sans);
+  font-size:16.5px;
+  line-height:1.65;
+  color:var(--text);
+  background:var(--bg);
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:var(--navy-600);text-underline-offset:3px}
+a:hover{color:var(--navy-400)}
+:focus-visible{outline:none;box-shadow:var(--ring);border-radius:6px}
+
+h1,h2,h3,h4{color:var(--heading);line-height:1.25;margin:0 0 .5em}
+h2{font-size:clamp(1.5rem,1.15rem + 1.1vw,2rem);letter-spacing:-.015em}
+h3{font-size:1.12rem;letter-spacing:-.005em}
+p{margin:0 0 1em}
+ul{margin:0 0 1em;padding-left:1.15em}
+li{margin:.35em 0}
+
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+.skip{
+  position:absolute;left:-9999px;top:0;z-index:100;
+  background:var(--navy);color:#fff;padding:12px 18px;border-radius:0 0 8px 0;font-weight:600;
+}
+.skip:focus{left:0}
+
+/* ---------- Header / nav ---------- */
+.site-header{
+  position:sticky;top:0;z-index:50;
+  background:var(--bg);
+  background:color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter:saturate(180%) blur(12px);
+  border-bottom:1px solid var(--border);
+}
+.nav{display:flex;align-items:center;gap:18px;height:64px}
+.brand{
+  display:flex;align-items:center;gap:10px;
+  font-weight:700;color:var(--heading);text-decoration:none;font-size:1rem;white-space:nowrap;
+}
+.brand .mono{
+  display:grid;place-items:center;width:34px;height:34px;border-radius:9px;
+  background:linear-gradient(135deg,var(--navy),var(--navy-400));
+  color:#fff;font-family:var(--font-serif);font-size:.95rem;font-weight:700;flex:none;
+}
+.brand small{display:block;font-weight:500;font-size:.72rem;color:var(--text-muted);letter-spacing:.03em}
+
+.nav-links{display:flex;gap:2px;margin-left:auto;flex-wrap:wrap}
+.nav-links a{
+  padding:8px 11px;border-radius:8px;text-decoration:none;
+  color:var(--text-muted);font-size:.9rem;font-weight:500;white-space:nowrap;
+  transition:background .18s ease,color .18s ease;
+}
+.nav-links a:hover{background:var(--surface-2);color:var(--heading)}
+.nav-links a.active{color:var(--navy-600);background:var(--surface-2);font-weight:600}
+
+.icon-btn{
+  flex:none;display:grid;place-items:center;width:38px;height:38px;
+  border:1px solid var(--border);background:var(--surface);color:var(--text-muted);
+  border-radius:10px;cursor:pointer;transition:color .18s ease,border-color .18s ease;
+}
+.icon-btn:hover{color:var(--navy-600);border-color:var(--navy-400)}
+.icon-btn svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+#nav-toggle{display:none;margin-left:auto}
+:root[data-theme="dark"] .sun,
+#theme-toggle .sun{display:none}
+#theme-toggle .moon{display:block}
+:root[data-theme="dark"] #theme-toggle .sun{display:block}
+:root[data-theme="dark"] #theme-toggle .moon{display:none}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]) #theme-toggle .sun{display:block}
+  :root:not([data-theme="light"]) #theme-toggle .moon{display:none}
+}
+
+@media (max-width:900px){
+  #nav-toggle{display:grid}
+  .nav-links{
+    position:absolute;left:0;right:0;top:64px;
+    flex-direction:column;gap:2px;margin:0;padding:10px 16px 16px;
+    background:var(--bg);border-bottom:1px solid var(--border);box-shadow:var(--shadow);
+  }
+  .nav-links[hidden]{display:none}
+  .nav-links a{padding:11px 12px;font-size:.98rem}
+}
+@media (min-width:901px){
+  .nav-links{display:flex !important}
+}
+
+/* ---------- Hero ---------- */
+.hero{
+  position:relative;overflow:hidden;
+  background:
+    radial-gradient(900px 420px at 82% -10%, rgba(15,157,143,.18), transparent 62%),
+    linear-gradient(150deg, var(--navy) 0%, #10315b 55%, #0b2244 100%);
+  color:#eef4fb;
+  padding:76px 0 84px;
+}
+:root[data-theme="dark"] .hero{background:radial-gradient(900px 420px at 82% -10%, rgba(63,201,184,.14), transparent 62%),linear-gradient(150deg,#12233d 0%,#0d1b30 55%,#0a1424 100%)}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]) .hero{background:radial-gradient(900px 420px at 82% -10%, rgba(63,201,184,.14), transparent 62%),linear-gradient(150deg,#12233d 0%,#0d1b30 55%,#0a1424 100%)}
+}
+.hero::after{
+  content:"";position:absolute;inset:0;pointer-events:none;opacity:.16;
+  background-image:radial-gradient(rgba(255,255,255,.55) 1px, transparent 1.4px);
+  background-size:26px 26px;
+  -webkit-mask-image:linear-gradient(to bottom right, #000, transparent 70%);
+          mask-image:linear-gradient(to bottom right, #000, transparent 70%);
+}
+.hero .wrap{position:relative;z-index:1}
+.hero-grid{display:grid;grid-template-columns:190px 1fr;gap:40px;align-items:center}
+@media (max-width:760px){
+  .hero{padding:52px 0 60px}
+  .hero-grid{grid-template-columns:1fr;gap:26px;text-align:center;justify-items:center}
+}
+.portrait{
+  width:190px;height:190px;border-radius:50%;object-fit:cover;object-position:50% 22%;
+  border:4px solid rgba(255,255,255,.85);
+  box-shadow:0 18px 44px rgba(0,0,0,.35);
+}
+.hero h1{
+  color:#fff;margin:0 0 6px;
+  font-family:var(--font-serif);
+  font-size:clamp(2rem,1.4rem + 2.4vw,3.05rem);
+  letter-spacing:-.02em;line-height:1.12;
+}
+.hero .role{
+  margin:0 0 14px;font-size:1.05rem;font-weight:600;color:#bfe0f5;letter-spacing:.01em;
+}
+.hero .tagline{
+  margin:0 0 22px;max-width:60ch;font-size:1.06rem;color:#d5e4f2;
+}
+.pill-row{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px;justify-content:inherit}
+.pill{
+  font-size:.78rem;font-weight:600;letter-spacing:.045em;text-transform:uppercase;
+  padding:5px 11px;border-radius:999px;
+  background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.22);color:#e6f0fa;
+}
+@media (max-width:760px){.pill-row,.links{justify-content:center}}
+
+.links{display:flex;flex-wrap:wrap;gap:9px}
+.link{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:9px 15px;border-radius:10px;text-decoration:none;font-size:.9rem;font-weight:600;
+  background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.24);color:#fff;
+  transition:background .18s ease,transform .18s ease,border-color .18s ease;
+}
+.link:hover{background:rgba(255,255,255,.2);border-color:rgba(255,255,255,.5);color:#fff;transform:translateY(-1px)}
+.link.primary{background:#fff;color:var(--navy);border-color:#fff}
+.link.primary:hover{background:#e8f1fb;color:var(--navy)}
+.link svg{width:16px;height:16px;fill:currentColor;flex:none}
+
+/* ---------- Sections ---------- */
+section[id]{scroll-margin-top:80px}
+.band{padding:66px 0}
+.band.tint{background:var(--bg-alt);border-block:1px solid var(--border)}
+.eyebrow{
+  display:block;font-size:.76rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--accent);margin-bottom:8px;
+}
+.section-head{margin-bottom:30px;max-width:70ch}
+.section-head p{color:var(--text-muted);margin:0}
+
+.card{
+  background:var(--surface);border:1px solid var(--border);
+  border-radius:var(--radius);padding:26px;box-shadow:var(--shadow);
+}
+
+/* Stats */
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px}
+.stat{
+  background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);
+  padding:22px 20px;box-shadow:var(--shadow);
+  border-top:3px solid var(--navy-400);
+}
+.stat b{display:block;font-family:var(--font-serif);font-size:1.95rem;color:var(--navy-600);line-height:1.1}
+.stat span{display:block;margin-top:6px;font-size:.9rem;color:var(--text-muted)}
+
+/* About layout */
+.about-grid{display:grid;grid-template-columns:1.55fr 1fr;gap:34px;align-items:start}
+@media (max-width:860px){.about-grid{grid-template-columns:1fr;gap:24px}}
+.facts{list-style:none;margin:0;padding:0}
+.facts li{
+  display:flex;gap:12px;padding:11px 0;border-bottom:1px solid var(--border);font-size:.94rem;
+}
+.facts li:last-child{border-bottom:0}
+.facts .k{flex:none;width:96px;color:var(--text-muted);font-weight:600;font-size:.82rem;letter-spacing:.04em;text-transform:uppercase;padding-top:2px}
+.facts .v{color:var(--text)}
+
+/* Chips */
+.chips{display:flex;flex-wrap:wrap;gap:9px;list-style:none;margin:0;padding:0}
+.chips li{
+  padding:8px 14px;border-radius:999px;font-size:.9rem;font-weight:500;
+  background:var(--surface);border:1px solid var(--border);color:var(--text);
+}
+.chips li::before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--accent);margin-right:9px;vertical-align:middle}
+
+/* Timeline */
+.timeline{position:relative;margin:0;padding:0 0 0 26px;list-style:none;border-left:2px solid var(--border)}
+.timeline > li{position:relative;padding:0 0 30px}
+.timeline > li:last-child{padding-bottom:0}
+.timeline > li::before{
+  content:"";position:absolute;left:-33px;top:7px;width:13px;height:13px;border-radius:50%;
+  background:var(--surface);border:3px solid var(--navy-400);
+}
+.job-head{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:baseline;margin-bottom:2px}
+.job-head h3{margin:0}
+.job-meta{color:var(--text-muted);font-size:.92rem;margin:0 0 10px}
+.job-meta .org{color:var(--navy-600);font-weight:600}
+.when{
+  font-size:.78rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;
+  color:var(--text-muted);background:var(--surface-2);border:1px solid var(--border);
+  padding:3px 10px;border-radius:999px;white-space:nowrap;
+}
+.roles{list-style:none;margin:0 0 12px;padding:0;display:flex;flex-direction:column;gap:3px}
+.roles li{font-size:.88rem;color:var(--text-muted)}
+.roles li strong{color:var(--text);font-weight:600}
+.bullets{margin:0;padding-left:1.1em}
+.bullets li{font-size:.96rem}
+
+/* Education */
+.edu-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+.edu h3{margin-bottom:2px}
+.edu .deg{color:var(--navy-600);font-weight:600;font-size:.9rem;margin:0 0 10px}
+.edu .thesis{font-size:.92rem;color:var(--text-muted);margin:0}
+.edu .thesis em{color:var(--text)}
+
+/* Outputs */
+.out-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:18px}
+.out h3{display:flex;align-items:center;gap:9px;margin-bottom:12px;font-size:1rem}
+.out h3 svg{width:19px;height:19px;flex:none;fill:none;stroke:var(--accent);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.out ul{margin:0;padding-left:1.1em}
+.out li{font-size:.94rem}
+
+/* Publications */
+.pubs{list-style:none;margin:0;padding:0;counter-reset:pub}
+.pubs li{
+  position:relative;padding:18px 0 18px 46px;border-bottom:1px solid var(--border);
+}
+.pubs li:last-child{border-bottom:0;padding-bottom:0}
+.pubs li::before{
+  counter-increment:pub;content:counter(pub);
+  position:absolute;left:0;top:18px;
+  width:30px;height:30px;border-radius:9px;display:grid;place-items:center;
+  background:var(--surface-2);border:1px solid var(--border);
+  font-size:.82rem;font-weight:700;color:var(--navy-600);
+}
+.pubs .title{display:block;font-weight:600;color:var(--heading);margin-bottom:3px}
+.pubs .authors{display:block;font-size:.9rem;color:var(--text-muted)}
+.pubs .venue{display:block;font-size:.9rem;color:var(--text-muted);font-style:italic}
+
+/* Talks / service lists */
+.stack{display:flex;flex-direction:column;gap:16px}
+.entry{border-left:3px solid var(--navy-400);padding:2px 0 2px 16px}
+.entry h3{margin-bottom:3px;font-size:1rem}
+.entry .when-inline{font-size:.85rem;color:var(--text-muted);font-weight:600}
+.entry p{margin:6px 0 0;font-size:.95rem;color:var(--text-muted)}
+
+/* Contact */
+.contact-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.contact-card{
+  display:flex;gap:14px;align-items:flex-start;
+  background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);
+  padding:20px;box-shadow:var(--shadow);text-decoration:none;color:inherit;
+  transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease;
+}
+.contact-card:hover{transform:translateY(-2px);box-shadow:var(--shadow-lg);border-color:var(--navy-400);color:inherit}
+.contact-card svg{width:22px;height:22px;flex:none;fill:none;stroke:var(--navy-600);stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;margin-top:2px}
+.contact-card b{display:block;color:var(--heading);font-size:.95rem}
+.contact-card span{display:block;font-size:.9rem;color:var(--text-muted);word-break:break-word}
+
+/* Footer */
+.site-footer{
+  background:var(--surface);border-top:1px solid var(--border);
+  padding:30px 0;color:var(--text-muted);font-size:.9rem;
+}
+.footer-inner{display:flex;flex-wrap:wrap;gap:10px 22px;align-items:center;justify-content:space-between}
+.site-footer a{color:var(--text-muted)}
+
+/* Back to top */
+#to-top{
+  position:fixed;right:20px;bottom:20px;z-index:40;
+  opacity:0;visibility:hidden;transition:opacity .22s ease,visibility .22s ease;
+  box-shadow:var(--shadow-lg);
+}
+#to-top.show{opacity:1;visibility:visible}
+
+/* ---------- Print ---------- */
+@media print{
+  .site-header,#to-top,.links,.site-footer,.pill-row{display:none !important}
+  html{scroll-padding-top:0}
+  body{background:#fff;color:#000;font-size:10.5pt}
+  .hero{background:#fff !important;color:#000;padding:0 0 18pt;border-bottom:2pt solid #173f73}
+  .hero::after{display:none}
+  .hero h1,.hero .role,.hero .tagline{color:#000}
+  .portrait{width:110px;height:110px;border-color:#999}
+  .band{padding:14pt 0;break-inside:avoid}
+  .band.tint{background:#fff;border:0}
+  .card,.stat,.contact-card{box-shadow:none;border:1pt solid #ccc;break-inside:avoid}
+  section[id]{break-inside:auto}
+  h2{font-size:14pt}
+  a{color:#000;text-decoration:none}
+}
+</style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://sauravbsaha.github.io/#person",
+      "name": "Saurav Bhaskar Saha",
+      "givenName": "Saurav Bhaskar",
+      "familyName": "Saha",
+      "alternateName": ["Saurav Saha", "Dr Saurav Saha", "Saurav B. Saha"],
+      "honorificPrefix": "Dr",
+      "honorificSuffix": "PhD, FRSB",
+      "description": "Senior Scientist at Sygnature Discovery in Nottingham, leading bioinformatics efforts across drug discovery programmes. Fellow of the Royal Society of Biology. Works on target identification, computational biology, antimicrobial resistance and AI-enabled drug discovery.",
+      "jobTitle": [
+        "Senior Scientist",
+        "Senior Scientist II",
+        "Senior Scientist 2",
+        "Senior Scientist 2 (Bioinformatics)",
+        "Senior Scientist 2, Computational Sciences and Informatics",
+        "Senior Scientist 2 \u2013 Computational Sciences and Informatics"
+      ],
+      "url": "https://sauravbsaha.github.io/",
+      "mainEntityOfPage": { "@id": "https://sauravbsaha.github.io/#profilepage" },
+      "image": {
+        "@type": "ImageObject",
+        "@id": "https://sauravbsaha.github.io/#portrait",
+        "url": "https://sauravbsaha.github.io/images/profile.jpg",
+        "contentUrl": "https://sauravbsaha.github.io/images/profile.jpg",
+        "width": 1024,
+        "height": 1024,
+        "caption": "Saurav Bhaskar Saha, PhD, FRSB"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ORCID",
+          "value": "0000-0002-8609-7004",
+          "url": "https://orcid.org/0000-0002-8609-7004"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Google Scholar",
+          "value": "Jvi-QpIAAAAJ",
+          "url": "https://scholar.google.com/citations?user=Jvi-QpIAAAAJ"
+        }
+      ],
+      "worksFor": { "@id": "https://www.sygnaturediscovery.com/#organization" },
+      "performerIn": { "@id": "https://sauravbsaha.github.io/#event-qiagen-2026" },
+      "affiliation": [
+        { "@id": "https://www.sygnaturediscovery.com/#organization" },
+        { "@id": "https://www.rsb.org.uk/#organization" }
+      ],
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "Bioinformatics Scientist",
+        "occupationLocation": {
+          "@type": "City",
+          "name": "Nottingham"
+        }
+      },
+      "workLocation": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Nottingham",
+          "addressCountry": "GB"
+        }
+      },
+      "alumniOf": [
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "Sam Higginbottom University of Agriculture, Technology and Sciences (SHUATS)",
+          "url": "https://shuats.edu.in/"
+        }
+      ],
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "degree",
+          "educationalLevel": "PhD",
+          "name": "PhD, Bioinformatics",
+          "recognizedBy": {
+            "@type": "CollegeOrUniversity",
+            "name": "Sam Higginbottom University of Agriculture, Technology and Sciences (SHUATS)"
+          }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Fellowship",
+          "name": "Fellow of the Royal Society of Biology (FRSB)",
+          "recognizedBy": { "@id": "https://www.rsb.org.uk/#organization" }
+        }
+      ],
+      "knowsAbout": [
+        "Bioinformatics",
+        "Computational Biology",
+        "Target Identification",
+        "Drug Discovery",
+        "Antimicrobial Resistance",
+        "Machine Learning",
+        "Explainable AI",
+        "Large Language Models",
+        "Multi-omics",
+        "Cheminformatics",
+        "Database Development"
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/in/sauravbsaha/",
+        "https://orcid.org/0000-0002-8609-7004",
+        "https://scholar.google.com/citations?user=Jvi-QpIAAAAJ",
+        "https://www.researchgate.net/profile/Saurav-Saha-2",
+        "https://github.com/sauravbsaha",
+        "https://x.com/sauravbsaha",
+        "https://twitter.com/sauravbsaha",
+        "https://www.sygnaturediscovery.com/saurav-saha-bio-modal/"
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.sygnaturediscovery.com/#organization",
+      "name": "Sygnature Discovery",
+      "legalName": "Sygnature Discovery Limited",
+      "url": "https://www.sygnaturediscovery.com/",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "BioCity, Pennyfoot Street",
+        "addressLocality": "Nottingham",
+        "postalCode": "NG1 1GR",
+        "addressCountry": "GB"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/sygnature-discovery",
+        "https://find-and-update.company-information.service.gov.uk/company/05210563"
+      ],
+      "employee": { "@id": "https://sauravbsaha.github.io/#person" }
+    },
+    {
+      "@type": "Event",
+      "@id": "https://sauravbsaha.github.io/#event-qiagen-2026",
+      "name": "AI meets expertise: A hybrid workflow for modern target ID",
+      "description": "Industry panel discussion on combining AI with bioinformatics expertise for target identification.",
+      "startDate": "2026-06-24",
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "url": "https://www.qiagen.com/us/knowledge-and-support/knowledge-hub/events-and-webinars/ai-meets-expertise",
+      "sameAs": "https://www.sygnaturediscovery.com/webinar-and-podcast/ai-meets-expertise-a-hybrid-workflow-for-modern-target-id-qiagen-sygnature/",
+      "performer": [
+        { "@id": "https://sauravbsaha.github.io/#person" },
+        { "@type": "Person", "name": "Daniel Bakowski" },
+        { "@type": "Person", "name": "Olivia Alder" },
+        { "@type": "Person", "name": "Iman Bhattacharya" }
+      ],
+      "organizer": [
+        { "@type": "Organization", "name": "QIAGEN Digital Insights", "url": "https://www.qiagen.com/" },
+        { "@id": "https://www.sygnaturediscovery.com/#organization" }
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://sauravbsaha.github.io/#ucare",
+      "name": "u-CARE",
+      "alternateName": "user-friendly Comprehensive Antibiotic resistance Repository of Escherichia coli",
+      "description": "Manually curated database documenting multi-drug resistant Escherichia coli, covering 52 antibiotics and 107 genes, transcription factors and SNPs.",
+      "creator": { "@id": "https://sauravbsaha.github.io/#person" },
+      "sameAs": [
+        "https://en.wikipedia.org/wiki/U-CARE",
+        "https://www.wikidata.org/wiki/Q85811423"
+      ],
+      "citation": {
+        "@type": "ScholarlyArticle",
+        "name": "u-CARE: user-friendly Comprehensive Antibiotic resistance Repository of Escherichia coli",
+        "author": { "@id": "https://sauravbsaha.github.io/#person" },
+        "datePublished": "2015-05-02",
+        "isPartOf": { "@type": "Periodical", "name": "Journal of Clinical Pathology" },
+        "identifier": [
+          { "@type": "PropertyValue", "propertyID": "DOI", "value": "10.1136/jclinpath-2015-202927" },
+          { "@type": "PropertyValue", "propertyID": "PMID", "value": "25935546" }
+        ],
+        "url": "https://doi.org/10.1136/jclinpath-2015-202927"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://sauravbsaha.github.io/#ucarechemsuitecli",
+      "name": "uCAREChemSuiteCLI",
+      "applicationCategory": "Bioinformatics software",
+      "description": "R package for bacterial resistome prediction, distributed via CRAN.",
+      "author": { "@id": "https://sauravbsaha.github.io/#person" },
+      "programmingLanguage": "R",
+      "url": "https://cran.r-project.org/package=uCAREChemSuiteCLI",
+      "sameAs": "https://cran.r-project.org/web/packages/uCAREChemSuiteCLI/index.html"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.rsb.org.uk/#organization",
+      "name": "Royal Society of Biology",
+      "url": "https://www.rsb.org.uk/",
+      "sameAs": ["https://en.wikipedia.org/wiki/Royal_Society_of_Biology"]
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": "https://sauravbsaha.github.io/#profilepage",
+      "url": "https://sauravbsaha.github.io/",
+      "name": "Saurav Bhaskar Saha, PhD, FRSB",
+      "mainEntity": { "@id": "https://sauravbsaha.github.io/#person" },
+      "about": { "@id": "https://sauravbsaha.github.io/#person" },
+      "primaryImageOfPage": { "@id": "https://sauravbsaha.github.io/#portrait" },
+      "isPartOf": { "@id": "https://sauravbsaha.github.io/#website" },
+      "inLanguage": "en-GB"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://sauravbsaha.github.io/#website",
+      "url": "https://sauravbsaha.github.io/",
+      "name": "Saurav Bhaskar Saha",
+      "inLanguage": "en-GB",
+      "author": { "@id": "https://sauravbsaha.github.io/#person" },
+      "creator": { "@id": "https://sauravbsaha.github.io/#person" },
+      "publisher": { "@id": "https://sauravbsaha.github.io/#person" },
+      "about": { "@id": "https://sauravbsaha.github.io/#person" }
+    }
+  ]
+}
+</script>
+</head>
+
+<body>
+
+<a class="skip" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="#top">
+      <span class="mono" aria-hidden="true">SS</span>
+      <span>Saurav B. Saha<small>PhD, FRSB</small></span>
+    </a>
+
+    <button class="icon-btn" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation menu">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+
+    <nav class="nav-links" id="nav-links" aria-label="Section navigation">
+      <a href="#about">About</a>
+      <a href="#expertise">Expertise</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#outputs">Research Outputs</a>
+      <a href="#publications">Publications</a>
+      <a href="#talks">Talks</a>
+      <a href="#service">Service</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch colour theme" title="Switch colour theme">
+      <svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      <svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="wrap">
+    <div class="hero-grid">
+      <img class="portrait" src="images/profile.jpg" width="190" height="190"
+           alt="Portrait of Saurav Bhaskar Saha">
+      <div>
+        <h1>Saurav Bhaskar Saha</h1>
+        <p class="role">PhD, FRSB &nbsp;·&nbsp; Senior Scientist, Sygnature Discovery &nbsp;·&nbsp; leading bioinformatics efforts</p>
+        <p class="tagline">
+          Accelerating drug discovery through bioinformatics, computational biology and
+          explainable AI — from target identification to translational insight.
+        </p>
+
+        <ul class="pill-row" style="list-style:none;padding:0">
+          <li class="pill">Target Identification</li>
+          <li class="pill">Computational Biology</li>
+          <li class="pill">AI &amp; Machine Learning</li>
+          <li class="pill">Antimicrobial Resistance</li>
+        </ul>
+
+        <div class="links">
+          <a class="link primary" href="#contact">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 5.5A1.5 1.5 0 0 1 3.5 4h17A1.5 1.5 0 0 1 22 5.5v13a1.5 1.5 0 0 1-1.5 1.5h-17A1.5 1.5 0 0 1 2 18.5v-13zm2 .7v.3l8 5 8-5v-.3H4z"/></svg>
+            Get in touch
+          </a>
+          <a class="link" href="https://www.linkedin.com/in/sauravbsaha/" target="_blank" rel="me noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05a4.2 4.2 0 0 1 3.77-2.07C20.4 8.63 22 10.9 22 14.4V21h-4v-5.9c0-1.4-.03-3.2-1.96-3.2-1.96 0-2.26 1.53-2.26 3.1V21H9z"/></svg>
+            LinkedIn
+          </a>
+          <a class="link" href="https://scholar.google.com/citations?user=Jvi-QpIAAAAJ" target="_blank" rel="me noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 1 8l11 6 9-4.9V17h2V8L12 2zM5 13.2V17c0 2.2 3.1 4 7 4s7-1.8 7-4v-3.8l-7 3.8-7-3.8z"/></svg>
+            Google Scholar
+          </a>
+          <a class="link" href="https://orcid.org/0000-0002-8609-7004" target="_blank" rel="me noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zM8.2 6.1a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2zM7.3 9.4h1.8v8.2H7.3V9.4zm3.5 0h3.3c2.6 0 4.4 1.7 4.4 4.1s-1.8 4.1-4.4 4.1h-3.3V9.4zm1.8 1.6v5h1.4c1.7 0 2.7-1 2.7-2.5s-1-2.5-2.7-2.5h-1.4z"/></svg>
+            ORCID
+          </a>
+          <a class="link" href="https://www.researchgate.net/profile/Saurav-Saha-2" target="_blank" rel="me noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm-2.6 5.6h2.5c1.7 0 2.8 1 2.8 2.5 0 1.2-.7 2.1-1.8 2.4l2.3 3.9h-1.8l-2.1-3.6h-.9v3.6H9.4V7.6zm1.5 1.3v2.6h.9c.9 0 1.4-.5 1.4-1.3s-.5-1.3-1.4-1.3h-.9z"/></svg>
+            ResearchGate
+          </a>
+          <a class="link" href="https://x.com/sauravbsaha" target="_blank" rel="me noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.9 2H22l-6.9 7.9L22.6 22h-6.3l-4.9-6.4L5.6 22H2.5l7.3-8.3L1.8 2h6.4l4.6 6 5.1-6zm-1.1 18h1.7L7.3 3.7H5.5L17.8 20z"/></svg>
+            X
+          </a>
+          <a class="link" href="https://github.com/sauravbsaha" target="_blank" rel="me noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.6 22.4c.6.1.8-.2.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.4-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.8-1.6-2.6-.3-5.3-1.3-5.3-5.8 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.5-2.7 5.5-5.3 5.8.4.4.8 1.1.8 2.2v3.3c0 .4.2.7.8.6A11.5 11.5 0 0 0 12 .5z"/></svg>
+            GitHub
+          </a>
+          <a class="link" href="https://www.sygnaturediscovery.com/saurav-saha-bio-modal/" target="_blank" rel="me noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v2H4V4zm0 4h16v12H4V8zm2 2v8h5v-8H6zm7 0v2h5v-2h-5zm0 3v2h5v-2h-5zm0 3v2h5v-2h-5z"/></svg>
+            Company Profile
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="band" id="about">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">About</span>
+      <h2>Bridging fundamental science and therapeutic innovation</h2>
+    </div>
+
+    <div class="about-grid">
+      <div>
+        <p>
+          I am a Fellow of the Royal Society of Biology (FRSB) with more than 16 years of
+          experience across computational biology, bioinformatics and translational research in
+          both academia and industry.
+        </p>
+        <p>
+          As a founding member of the bioinformatics capability at
+          <strong>Sygnature Discovery</strong>, I have helped establish and advance computational
+          biology expertise within the organisation — building analytical pipelines, best-practice
+          frameworks and target identification strategies that integrate cheminformatics,
+          biosciences, medicinal chemistry and machine learning.
+        </p>
+        <p>
+          My earlier academic work focused on antimicrobial resistance and bacterial genomics,
+          producing openly available resources — <strong>uCARE</strong> and
+          <strong>uCAREChemSuiteCLI</strong> — that are used by researchers worldwide and cited in
+          journals including <em>Nature Reviews Genetics</em> and <em>Scientific Reports</em>.
+        </p>
+        <p>
+          Today my work sits at the intersection of bioinformatics, machine learning and explainable
+          AI, applied to target identification and prioritisation across oncology, metabolic
+          disorders and neuroscience.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3 style="margin-bottom:14px">At a glance</h3>
+        <ul class="facts">
+          <li><span class="k">Role</span><span class="v">Senior Scientist, Sygnature Discovery — leading bioinformatics efforts</span></li>
+          <li><span class="k">Based in</span><span class="v">Nottingham, United Kingdom</span></li>
+          <li><span class="k">ORCID iD</span><span class="v"><a href="https://orcid.org/0000-0002-8609-7004" target="_blank" rel="me noopener noreferrer">0000-0002-8609-7004</a></span></li>
+          <li><span class="k">Fellowship</span><span class="v">Fellow, Royal Society of Biology (since Jan 2023)</span></li>
+          <li><span class="k">Focus</span><span class="v">Target identification, computational drug discovery, AMR</span></li>
+          <li><span class="k">Toolkit</span><span class="v">R · Python · Cloud platforms · ML / XAI</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ RECOGNITION / STATS ============ -->
+<section class="band tint" id="recognition">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Recognition &amp; Leadership</span>
+      <h2>Selected highlights</h2>
+    </div>
+
+    <div class="stats" style="margin-bottom:28px">
+      <div class="stat"><b>16+</b><span>Years in computational biology and bioinformatics</span></div>
+      <div class="stat"><b>FRSB</b><span>Fellow of the Royal Society of Biology, since 2023</span></div>
+      <div class="stat"><b>15,000+</b><span>CRAN downloads of uCAREChemSuiteCLI</span></div>
+      <div class="stat"><b>EU JRC</b><span>Invited expert, AMR Databases Workshop (Italy, 2019)</span></div>
+      <div class="stat"><b>Global Talent</b><span>Royal Society–endorsed UK Global Talent Visa holder</span></div>
+    </div>
+
+    <div class="card">
+      <ul class="bullets" style="margin:0">
+        <li><strong>Founding member</strong> of the bioinformatics division at Sygnature Discovery; contributor to the human-in-the-loop target identification programme.</li>
+        <li><strong>Invited expert</strong> at the European Commission Joint Research Centre Workshop on Antimicrobial Resistance Databases (Italy, 2019).</li>
+        <li><strong>Grant review</strong> — served as a reviewer for a UKRI grant application.</li>
+        <li><strong>International collaborations</strong> — ChlamIndia study with Maastricht University; Visiting Researcher at the University of Cambridge.</li>
+        <li><strong>Open-source impact</strong> — <a href="https://cran.r-project.org/package=uCAREChemSuiteCLI" target="_blank" rel="noopener noreferrer">uCAREChemSuiteCLI</a> (R package) with 15,000+ downloads via CRAN.</li>
+        <li><strong>u-CARE database</strong> — the subject of a <a href="https://en.wikipedia.org/wiki/U-CARE" target="_blank" rel="noopener noreferrer">Wikipedia article</a>, based on our <em>Journal of Clinical Pathology</em> paper.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EXPERTISE ============ -->
+<section class="band" id="expertise">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Expertise</span>
+      <h2>Research interests and technical focus</h2>
+      <p>Areas where my work is concentrated, spanning discovery biology and computational method development.</p>
+    </div>
+
+    <div class="about-grid">
+      <div class="card">
+        <h3 style="margin-bottom:14px">Scientific domains</h3>
+        <ul class="chips">
+          <li>Target identification &amp; validation</li>
+          <li>Computational drug discovery</li>
+          <li>Antimicrobial resistance</li>
+          <li>Bacterial genomics &amp; resistome</li>
+          <li>Multi-omics integration</li>
+          <li>Cheminformatics</li>
+          <li>Precision medicine</li>
+          <li>Translational research</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3 style="margin-bottom:14px">Methods &amp; tooling</h3>
+        <ul class="chips">
+          <li>R</li>
+          <li>Python</li>
+          <li>Machine learning</li>
+          <li>Explainable AI</li>
+          <li>Large language models</li>
+          <li>NGS pipelines</li>
+          <li>Workflow automation</li>
+          <li>Cloud platforms</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EXPERIENCE ============ -->
+<section class="band tint" id="experience">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Professional Experience</span>
+      <h2>Career history</h2>
+    </div>
+
+    <ol class="timeline">
+
+      <li>
+        <div class="job-head">
+          <h3>Senior Scientist</h3>
+          <span class="when">Jan 2022 – Present</span>
+        </div>
+        <p class="job-meta"><span class="org">Sygnature Discovery</span> · Nottingham, UK</p>
+        <ul class="roles">
+          <li><strong>Senior Scientist 2 (Bioinformatics)</strong> — Oct 2024 – Present</li>
+          <li><strong>Senior Scientist 1 (Bioinformatics)</strong> — Oct 2023 – Oct 2024</li>
+          <li><strong>Senior Scientist 1 (Informatics)</strong> — Jan 2022 – Oct 2023</li>
+        </ul>
+        <ul class="bullets">
+          <li>Supported the establishment of the Bioinformatics division, contributing to computational pipeline development and best-practice frameworks.</li>
+          <li>Played a key role in developing target identification strategies, integrating cheminformatics, biosciences, medicinal chemistry and machine learning to accelerate hit-to-lead timelines.</li>
+          <li>Serve as subject matter expert (SME) for target identification and bioinformatics, providing scientific and strategic leadership across early discovery programmes.</li>
+          <li>Lead and contribute to global target identification initiatives across oncology, metabolic disorders and neuroscience, partnering with multidisciplinary teams and supporting projects for leading pharmaceutical and biotech organisations.</li>
+          <li>Collaborated with senior leadership to design and implement automation workflows for drug discovery, reducing manual effort and improving operational efficiency.</li>
+          <li>Initiated exploratory discussions with leading cloud technology providers, including Fortune 500 companies, on collaborative opportunities for bioinformatics solutions and strategic partnerships.</li>
+          <li>Deliver data-driven solutions using R, Python and cloud platforms, enabling exploratory analysis across diverse therapeutic areas.</li>
+          <li>Act as line manager and scientific advisor for an industrial placement student from Imperial College London, overseeing development of a large language model tool for bioinformatics analysis.</li>
+        </ul>
+      </li>
+
+      <li>
+        <div class="job-head">
+          <h3>Visiting Researcher</h3>
+          <span class="when">Jan 2021 – Jun 2021</span>
+        </div>
+        <p class="job-meta"><span class="org">University of Cambridge</span> · United Kingdom</p>
+        <ul class="bullets">
+          <li>Contributed to the automation of diagnostic workflows.</li>
+          <li>Mentored Master's and PhD students in computational biology and bioinformatics.</li>
+          <li>Initiated development of an Android-based diagnostic application (project discontinued on early departure).</li>
+        </ul>
+      </li>
+
+      <li>
+        <div class="job-head">
+          <h3>Assistant Professor</h3>
+          <span class="when">Sep 2011 – Jun 2022</span>
+        </div>
+        <p class="job-meta"><span class="org">SHUATS</span> · India</p>
+        <ul class="roles">
+          <li><strong>Assistant Professor – Senior Scale (Bioinformatics)</strong> — Sep 2016 – Jun 2022</li>
+          <li><strong>Assistant Professor (Bioinformatics)</strong> — Sep 2011 – Aug 2016</li>
+        </ul>
+        <ul class="bullets">
+          <li>Built a research group developing databases, algorithms and tools to improve understanding of drug resistance mechanisms.</li>
+          <li>Provided data analytics support for the ChlamIndia study with Maastricht University.</li>
+          <li>Mentored multiple undergraduate and postgraduate students through thesis projects.</li>
+        </ul>
+      </li>
+
+      <li>
+        <div class="job-head">
+          <h3>Assistant Professor – Bioinformatics (In-charge)</h3>
+          <span class="when">Aug 2010 – Aug 2011</span>
+        </div>
+        <p class="job-meta"><span class="org">Shoolini University</span> · Solan, India</p>
+        <ul class="bullets">
+          <li>Designed and implemented the bioinformatics curriculum for undergraduate and postgraduate programmes.</li>
+          <li>Introduced computational biology modules and mentored students on data analysis and algorithm development.</li>
+          <li>Collaborated on departmental initiatives to strengthen bioinformatics research.</li>
+        </ul>
+      </li>
+
+      <li>
+        <div class="job-head">
+          <h3>Bioinformatician</h3>
+          <span class="when">Oct 2009 – May 2010</span>
+        </div>
+        <p class="job-meta"><span class="org">LabIndia Pvt. Ltd.</span> · Applied Biosystems (now part of Thermo Fisher Scientific), Gurugram, India</p>
+        <ul class="bullets">
+          <li>Developed NGS data analysis tools for the ABI SOLiD platform, optimising pipelines for high-throughput sequencing.</li>
+          <li>Provided technical support and training on genomic data interpretation for clients and internal teams.</li>
+          <li>Contributed to the deployment of bioinformatics solutions for next-generation sequencing workflows.</li>
+        </ul>
+      </li>
+
+    </ol>
+  </div>
+</section>
+
+<!-- ============ EDUCATION ============ -->
+<section class="band" id="education">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Education</span>
+      <h2>Academic background</h2>
+    </div>
+
+    <div class="edu-grid">
+      <div class="card edu">
+        <h3>PhD, Bioinformatics</h3>
+        <p class="deg">SHUATS, India · 2014 – 2020</p>
+        <p class="thesis">Thesis: <em>Development of computational tools for bacterial resistome prediction.</em></p>
+      </div>
+      <div class="card edu">
+        <h3>M.Tech, Bioinformatics</h3>
+        <p class="deg">SHUATS, India · 2007 – 2009</p>
+        <p class="thesis">Thesis: <em>Understanding EGFR as a therapeutically relevant drug target in cancer biology.</em></p>
+      </div>
+      <div class="card edu">
+        <h3>B.Tech, Biotechnology</h3>
+        <p class="deg">SHUATS, India · 2003 – 2007</p>
+        <p class="thesis">Thesis: <em>Assessment of genetic variability among catfishes using Randomly Amplified Polymorphic DNA (RAPD) analysis.</em></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ RESEARCH OUTPUTS ============ -->
+<section class="band tint" id="outputs">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Research Outputs</span>
+      <h2>Tools, databases and intellectual property</h2>
+    </div>
+
+    <div class="out-grid">
+      <div class="card out">
+        <h3>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg>
+          Software tools
+        </h3>
+        <ul>
+          <li><a href="https://cran.r-project.org/package=uCAREChemSuiteCLI" target="_blank" rel="noopener noreferrer">uCAREChemSuiteCLI</a> — R package on CRAN, 15,000+ downloads</li>
+          <li>uCARE Chem Suite — antimicrobial resistance prediction toolkit</li>
+        </ul>
+      </div>
+
+      <div class="card out">
+        <h3>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="12" cy="5.5" rx="8" ry="3"/><path d="M4 5.5v13c0 1.7 3.6 3 8 3s8-1.3 8-3v-13M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg>
+          Databases
+        </h3>
+        <ul>
+          <li><a href="https://en.wikipedia.org/wiki/U-CARE" target="_blank" rel="noopener noreferrer">u-CARE</a> — User-friendly Comprehensive Antibiotic Resistance repository for <em>E. coli</em></li>
+          <li>Malaria-DB</li>
+        </ul>
+      </div>
+
+      <div class="card out">
+        <h3>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l2.6 5.8 6.4.7-4.8 4.3 1.4 6.2L12 15.8 6.4 19l1.4-6.2L3 8.5l6.4-.7L12 2z"/></svg>
+          Patent
+        </h3>
+        <ul>
+          <li>Indian patent filed (2021) — <em>Antiviral peptides as binding site inhibitors for the ORF9b protein of SARS-CoV-2.</em> Application No. 202111023477.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PUBLICATIONS ============ -->
+<section class="band" id="publications">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Publications</span>
+      <h2>Selected publications</h2>
+      <p>Research spanning antimicrobial resistance, genomics, computational biology and drug discovery. A complete list is available on Google Scholar and ORCID.</p>
+    </div>
+
+    <div class="card">
+      <ol class="pubs">
+        <li>
+          <span class="title">uCARE Chem Suite and uCAREChemSuiteCLI: Tools for bacterial resistome prediction</span>
+          <span class="authors">Saha S.B., Gupta V.K., Ramteke P.W. (2020)</span>
+          <span class="venue">Genes &amp; Diseases, 8(5): 721–729. <a href="https://doi.org/10.1016/j.gendis.2020.06.008" target="_blank" rel="noopener noreferrer">doi:10.1016/j.gendis.2020.06.008</a></span>
+        </li>
+        <li>
+          <span class="title">Sexually transmitted infections and behavioral determinants of sexual and reproductive health in the Allahabad District (India) based on data from the ChlamIndia study</span>
+          <span class="authors">Thomas P.M., Yadav J., Kant R., Ambrosino E., Srivastava S., Batra G., Dayal A., Masih N., Pandey A., Saha S., Heijmans R., Lal J.A., Morré S.A. (2019)</span>
+          <span class="venue">Microorganisms, 7(11): 557. <a href="https://doi.org/10.3390/microorganisms7110557" target="_blank" rel="noopener noreferrer">doi:10.3390/microorganisms7110557</a></span>
+        </li>
+        <li>
+          <span class="title">u-CARE: User-friendly Comprehensive Antibiotic Resistance Repository of <em>Escherichia coli</em></span>
+          <span class="authors">Saha S.B., Uttam V., Verma V. (2015)</span>
+          <span class="venue">Journal of Clinical Pathology, 68(8): 648–651. <a href="https://doi.org/10.1136/jclinpath-2015-202927" target="_blank" rel="noopener noreferrer">doi:10.1136/jclinpath-2015-202927</a></span>
+        </li>
+        <li>
+          <span class="title">In silico analysis of <em>Escherichia coli</em> polyphosphate kinase as a novel antimicrobial drug target</span>
+          <span class="authors">Saha S.B., Verma V. (2013)</span>
+          <span class="venue">Bioinformation, 9(10): 518–523. <a href="https://doi.org/10.6026/97320630009518" target="_blank" rel="noopener noreferrer">doi:10.6026/97320630009518</a></span>
+        </li>
+      </ol>
+
+      <div style="margin-top:22px;display:flex;flex-wrap:wrap;gap:10px">
+        <a class="link" style="background:var(--surface-2);border-color:var(--border);color:var(--navy-600)"
+           href="https://scholar.google.com/citations?user=Jvi-QpIAAAAJ" target="_blank" rel="me noopener noreferrer">Full list on Google Scholar</a>
+        <a class="link" style="background:var(--surface-2);border-color:var(--border);color:var(--navy-600)"
+           href="https://orcid.org/0000-0002-8609-7004" target="_blank" rel="me noopener noreferrer">ORCID record</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TALKS ============ -->
+<section class="band tint" id="talks">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Talks &amp; Engagements</span>
+      <h2>Invited talks, conferences and scientific engagements</h2>
+    </div>
+
+    <div class="card">
+      <div class="stack">
+        <div class="entry">
+          <h3>Invited Panel Expert — QIAGEN Digital Insights Webinar</h3>
+          <p class="when-inline">24 June 2026</p>
+          <p><em>AI meets expertise: A hybrid workflow for modern target ID</em> — joint QIAGEN and Sygnature Discovery panel on integrating AI, bioinformatics expertise and translational data analysis to support target identification and drug discovery decision-making. Available on demand from
+            <a href="https://www.qiagen.com/us/knowledge-and-support/knowledge-hub/events-and-webinars/ai-meets-expertise" target="_blank" rel="noopener noreferrer">QIAGEN</a> and
+            <a href="https://www.sygnaturediscovery.com/webinar-and-podcast/ai-meets-expertise-a-hybrid-workflow-for-modern-target-id-qiagen-sygnature/" target="_blank" rel="noopener noreferrer">Sygnature Discovery</a>.</p>
+        </div>
+        <div class="entry">
+          <h3>Participant &amp; Scientific Contributor — Keystone Symposium</h3>
+          <p class="when-inline">London, May 2026</p>
+          <p>Computational Advances in Drug Discovery.</p>
+        </div>
+        <div class="entry">
+          <h3>Invited Flash Presentation — Sygnature Leadership Group Scientific Review</h3>
+          <p class="when-inline">December 2025</p>
+          <p>Representing the Target Identification Group.</p>
+        </div>
+        <div class="entry">
+          <h3>Invited Expert — European Commission Joint Research Centre</h3>
+          <p class="when-inline">Italy, 2019</p>
+          <p>Workshop on Antimicrobial Resistance Databases.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICE ============ -->
+<section class="band" id="service">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Mentorship, Service &amp; Outreach</span>
+      <h2>Giving back to the scientific community</h2>
+    </div>
+
+    <div class="about-grid">
+      <div class="card">
+        <div class="stack">
+          <div class="entry">
+            <h3>Mentorship</h3>
+            <p>Currently mentoring an industrial placement student from Imperial College London on bioinformatics workflows and computational drug discovery. Previously mentored undergraduate and postgraduate students through thesis projects at LabIndia, Shoolini University and SHUATS.</p>
+          </div>
+          <div class="entry">
+            <h3>Committee Member — Royal Society of Biology, East Midlands Branch</h3>
+            <p class="when-inline">2022 – 2023</p>
+            <p>Contributed to organising regional scientific events, outreach programmes and professional networking initiatives.</p>
+          </div>
+          <div class="entry">
+            <h3>Peer review</h3>
+            <p>Peer reviewer for international journals in computational biology and bioinformatics; reviewer for a UKRI grant application.</p>
+          </div>
+          <div class="entry">
+            <h3>Founder — “The Saurav Saha Lab” YouTube Channel</h3>
+            <p>Created and supervised a channel featuring tutorials on bioinformatics resources, developed by students under my mentorship.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3 style="margin-bottom:14px">Community roles</h3>
+        <ul class="chips">
+          <li>Journal peer reviewer</li>
+          <li>UKRI grant reviewer</li>
+          <li>Student supervision</li>
+          <li>Curriculum design</li>
+          <li>Science outreach</li>
+          <li>Scientific events</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="band tint" id="contact">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Contact</span>
+      <h2>Get in touch</h2>
+      <p>Open to conversations on collaborations, target identification, computational drug discovery and scientific mentorship.</p>
+    </div>
+
+    <div class="contact-grid">
+      <a class="contact-card" id="email-card" href="#contact">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="4.5" width="19" height="15" rx="2"/><path d="M3 6.5l9 6 9-6"/></svg>
+        <span><b>Email</b><span id="email-text">sauravsaha [at] ymail [dot] com</span></span>
+      </a>
+      <a class="contact-card" href="https://www.linkedin.com/in/sauravbsaha/" target="_blank" rel="me noopener noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="2.5" width="19" height="19" rx="3"/><path d="M7 10.5V17M7 7.2v.1M11.5 17v-6.5M11.5 13.2c0-1.6 1-2.7 2.6-2.7s2.4 1.1 2.4 2.9V17"/></svg>
+        <span><b>LinkedIn</b><span>linkedin.com/in/sauravbsaha</span></span>
+      </a>
+      <a class="contact-card" href="https://github.com/sauravbsaha" target="_blank" rel="me noopener noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-4.5 1.5-4.5-2.5-6-3m12 6v-3.9c0-1.1.1-1.6-.6-2.2 2.8-.3 5.6-1.4 5.6-6.1a4.7 4.7 0 0 0-1.3-3.3 4.4 4.4 0 0 0-.1-3.3s-1-.3-3.4 1.3a11.6 11.6 0 0 0-6.2 0C6.6 2 5.6 2.3 5.6 2.3a4.4 4.4 0 0 0-.1 3.3A4.7 4.7 0 0 0 4.2 8.9c0 4.7 2.8 5.8 5.6 6.1-.4.4-.6.9-.6 1.5V22"/></svg>
+        <span><b>GitHub</b><span>github.com/sauravbsaha</span></span>
+      </a>
+      <a class="contact-card" href="https://x.com/sauravbsaha" target="_blank" rel="me noopener noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 3l7 9-7 9M20 3l-7 9 7 9"/></svg>
+        <span><b>X (Twitter)</b><span>@sauravbsaha</span></span>
+      </a>
+      <a class="contact-card" href="https://orcid.org/0000-0002-8609-7004" target="_blank" rel="me noopener noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.2"/><path d="M9 10v6M9 7.6v.1M12.5 16v-6h2a3 3 0 0 1 0 6h-2z"/></svg>
+        <span><b>ORCID</b><span>0000-0002-8609-7004</span></span>
+      </a>
+      <a class="contact-card" href="https://scholar.google.com/citations?user=Jvi-QpIAAAAJ" target="_blank" rel="me noopener noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2 8l10 5 10-5-10-5z"/><path d="M6 10.8V15c0 1.9 2.7 3.4 6 3.4s6-1.5 6-3.4v-4.2"/></svg>
+        <span><b>Google Scholar</b><span>Publications &amp; citations</span></span>
+      </a>
+      <a class="contact-card" href="https://www.sygnaturediscovery.com/saurav-saha-bio-modal/" target="_blank" rel="me noopener noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21V7l7-4 7 4v14M3 21h18M17 21V11h4v10M7 11h2M7 15h2M13 11h1M13 15h1"/></svg>
+        <span><b>Sygnature Discovery</b><span>Company profile</span></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span>© <span id="year">2026</span> Saurav Bhaskar Saha, PhD, FRSB</span>
+    <span>Senior Scientist, Sygnature Discovery · Nottingham, UK</span>
+  </div>
+</footer>
+
+<button class="icon-btn" id="to-top" type="button" aria-label="Back to top" title="Back to top">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<script>
+(function () {
+  "use strict";
+  var root = document.documentElement;
+
+  /* ---- Theme toggle (persisted per browser; falls back to OS preference) ---- */
+  var stored = null;
+  try { stored = localStorage.getItem("theme"); } catch (e) {}
+  if (stored === "dark" || stored === "light") root.setAttribute("data-theme", stored);
+
+  var themeBtn = document.getElementById("theme-toggle");
+  themeBtn.addEventListener("click", function () {
+    var current = root.getAttribute("data-theme");
+    if (!current) {
+      current = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    }
+    var next = current === "dark" ? "light" : "dark";
+    root.setAttribute("data-theme", next);
+    try { localStorage.setItem("theme", next); } catch (e) {}
+  });
+
+  /* ---- Mobile navigation ---- */
+  var navBtn = document.getElementById("nav-toggle");
+  var navLinks = document.getElementById("nav-links");
+  var mq = window.matchMedia("(max-width: 900px)");
+
+  function syncNav() {
+    if (mq.matches) {
+      navLinks.hidden = true;
+      navBtn.setAttribute("aria-expanded", "false");
+    } else {
+      navLinks.hidden = false;
+    }
+  }
+  syncNav();
+  if (mq.addEventListener) mq.addEventListener("change", syncNav);
+
+  navBtn.addEventListener("click", function () {
+    var open = navLinks.hidden;
+    navLinks.hidden = !open;
+    navBtn.setAttribute("aria-expanded", String(open));
+  });
+  navLinks.addEventListener("click", function (e) {
+    if (e.target.tagName === "A" && mq.matches) syncNav();
+  });
+
+  /* ---- Scroll spy ---- */
+  var links = Array.prototype.slice.call(navLinks.querySelectorAll("a"));
+  var sections = links
+    .map(function (a) { return document.querySelector(a.getAttribute("href")); })
+    .filter(Boolean);
+
+  if ("IntersectionObserver" in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        links.forEach(function (a) {
+          a.classList.toggle("active", a.getAttribute("href") === "#" + entry.target.id);
+        });
+      });
+    }, { rootMargin: "-45% 0px -50% 0px", threshold: 0 });
+    sections.forEach(function (s) { io.observe(s); });
+  }
+
+  /* ---- Back to top ---- */
+  var toTop = document.getElementById("to-top");
+  function onScroll() { toTop.classList.toggle("show", window.scrollY > 600); }
+  window.addEventListener("scroll", onScroll, { passive: true });
+  onScroll();
+  toTop.addEventListener("click", function () {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+
+  /* ---- Email: assembled client-side to reduce harvesting by naive scrapers ---- */
+  var user = "sauravsaha", domain = "ymail.com";
+  var card = document.getElementById("email-card");
+  var text = document.getElementById("email-text");
+  if (card && text) {
+    card.href = "mailto:" + user + "@" + domain;
+    text.textContent = user + "@" + domain;
+  }
+
+  /* ---- Footer year ---- */
+  document.getElementById("year").textContent = new Date().getFullYear();
+})();
+</script>
+
+</body>
+</html>
