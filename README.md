@@ -36,32 +36,6 @@ Common edits:
   `<a href="#id">` inside `<nav class="nav-links">`. The scroll-spy highlight
   picks it up automatically.
 
-## Preview locally
 
-```bash
-python3 -m http.server 8000
-# then open http://localhost:8000
-```
-
-## Publish
-
-GitHub Pages serves the `master` branch of this repository. Commit and push:
-
-```bash
-git add -A
-git commit -m "Update site"
-git push origin master
-```
-
-Changes are usually live within a minute.
-
-## Notes
-
-- The site is responsive, keyboard-navigable, and supports light and dark themes
-  (following the operating-system preference, with a manual toggle that is
-  remembered per browser).
-- A print stylesheet is included, so **Print → Save as PDF** produces a clean,
-  CV-style document from the page.
-- The email address is assembled in JavaScript rather than written into the
   markup, which deters naive address harvesters. Visitors without JavaScript
   still see a readable `name [at] domain` form.
